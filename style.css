@@ -71,6 +71,11 @@ li:hover{
 
 /* hover btn : borda branca, letra negrita e cor branca  */
 
+.btn{
+    background-color: var(--corTitulosBtn);
+    color: var(--corTexto);
+}
+
 .btn:hover{
     border:2px solid var(--corTexto);
     font-weight: bold;
